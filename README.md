@@ -2,11 +2,11 @@
 Technologies:HTML , CSS , JavaScript
 
 
-  ###note :
+  ### note :
   this website isn't complete , still working on it
   
   
-##Description: 
+## Description: 
   ### HTML:
       .Build a website like paragraph , photos , inputs filed , links and buttons to deal with them in "CSS" and "JavaScript"
 
