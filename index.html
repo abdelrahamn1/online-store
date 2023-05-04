@@ -4,6 +4,12 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="OnlineStore , Buy anything what you need in any time over all world">
+    <meta property="og:title" content="KemFury OnlineStore">
+    <meta property="og:description" content="OnlineStore  , Buy anyting you nedd in any time over all world">
+    <meta property="og:type" content="OnlineStore">
+    <meta property="og:locale" content="en_GB">
+    <meta property="og:site_name" content="KemFury">
     <title>KemFury</title>
     <link rel="icon" type="image/png" href="/images/logo.png">
     <link rel="stylesheet" href="/css/all.min.css">
@@ -15,6 +21,10 @@
         <div class="container">
             <div class="top-nav">
                 <h2><span>kem</span>fury</h2>
+                <div class="icin">
+                    <i class="fa-solid fa-bars-staggered" id="bar"></i>
+                    <i class="fa-solid fa-xmark" id="close"></i>
+                </div>
                 <div class="input">
                     <input type="text" placeholder="What product you need?">
                     <button>Search</button>
@@ -27,7 +37,6 @@
                 </div>
             </div>
             <div class="bottom-nav">
-                <i class="fa-solid fa-bars"></i>
                 <div class="bottom-search">
                     <input type="text" placeholder="What product you need?">
                     <button>Search</button>
@@ -35,15 +44,14 @@
                 <div class="links">
                     <ul>
                         <li><a href="#">Home</a></li>
-                        <li><a href="#">pages</a></li>
-                        <li><a href="#">shop</a></li>
+                        <li><a href="#">Pages</a></li>
+                        <li><a href="#product">Shop</a></li>
                         <li><a href="#">Stores</a></li>
                         <li><a href="#">Blog</a></li>
                         <li><a href="#">FAQs</a></li>
-                        <li><a href="#">Contact</a></li>
+                        <li><a href="#footer">Contact</a></li>
                     </ul>
                 </div>
-
             </div>
         </div>
     </div>
@@ -57,7 +65,7 @@
                 </div>
             </div>
             <div class="offer">
-                <img src="/images/offer1.jpg" alt="">
+                <img  src="/images/offer1.jpg" alt="">
                 <img  src="/images/offer2.jpg" alt="">
                 <img class ="last" src="/images/offer3.jpg" alt="">
             </div>
@@ -90,7 +98,7 @@
             </div>
         </div>
     </div>
-    <div class="product">
+    <div class="product" id="product">
         <div class="container">
             <div class="design">
                 <h2>Daily Offers</h2>
@@ -297,56 +305,56 @@
             <div class="category">
                 <div class="cat">
                     <a href="#" id="electronics"><img src="/images/products/electronics.jpg" alt=""></a>
-                    <a href="#">electronics</a>
+                    <a href="#" class="link">electronics</a>
                     <div class="overlay">
                         <p>Go to electronics department !</p>
                     </div>
                 </div>
                 <div class="cat">
                     <a href="#" id="electronics"><img src="/images/products/clothing.jpg" alt=""></a>
-                    <a>clothing</a>
+                    <a href="" class="link">clothing</a>
                     <div class="overlay">
                         <p>Go to clothing department !</p>
                     </div>
                 </div>
                 <div class="cat">
                     <a href="#" id="electronics"><img src="/images/products/drone.jpg" alt=""></a>
-                    <a href="#">Drons</a>
+                    <a href="#" class="link">Drons</a>
                     <div class="overlay">
                         <p>Go to Drons department !</p>
                     </div>
                 </div>
                 <div class="cat">
                     <a href="#" id="electronics"><img src="/images/products/health&beauty.jpg" alt=""></a>
-                    <a href="#">health & beauty</a>
+                    <a href="#" class="link">health & beauty</a>
                     <div class="overlay">
                         <p>Go to health & beauty department !</p>
                     </div>
                 </div>
                 <div class="cat">
                     <a href="#" id="electronics"><img src="/images/products/home.jpg" alt=""></a>
-                    <a  href="#">Home</a>
+                    <a  href="#" class="link">Home</a>
                     <div class="overlay">
                         <p>Go to Home department !</p>
                     </div>
                 </div>
                 <div class="cat">
                     <a href="#" id="electronics"><img src="/images/products/jewelry& watch.jpg" alt=""></a>
-                    <a href="#">jewelry & watch</a>
+                    <a href="#" class="link">jewelry & watch</a>
                     <div class="overlay">
                         <p>Go to jewelry & watch department !</p>
                     </div>
                 </div>
                 <div class="cat">
                     <a href="#" id="electronics"><img src="/images/products/pc.jpg" alt=""></a>
-                    <a href="#">Laptop</a>
+                    <a href="#" class="link">Laptop</a>
                     <div class="overlay">
                         <p>Go to Laptop department !</p>
                     </div>
                 </div>
                 <div class="cat">
                     <a href="#" id="electronics"><img src="/images/products/phones.jpg" alt=""></a>
-                    <a href="#">Phones</a>
+                    <a href="#" class="link">Phones</a>
                     <div class="overlay">
                         <p>Go to Phones department !</p>
                     </div>
@@ -467,26 +475,25 @@
                 <a href=""><img src="/images/google-play.png" alt=""></a>
                 <a href=""><img src="/images/app-store.png" alt=""></a>
             </div>
-            
         </div>
     </div>
-    <div class="footer">
+    <div class="footer" id="footer">
         <div class="container">
             <div class="top-footer">
+                <div class="contact">
+                    <h2>Contact us</h2>
+                    <p>call us :</p>
+                    <p class="phone"> 1800 99 69 99</p>
+                    <p>57 New Street , Brighton VIC , Australia</p>
+                    <p>contact@kemfruy.com</p>
+                        <div class="icons">
+                            <i class="fa-brands fa-facebook"></i>
+                            <i class="fa-brands fa-twitter"></i>
+                            <i class="fa-brands fa-instagram"></i>
+                            <i class="fa-brands fa-youtube"></i>
+                        </div>
+                </div>
                 <div class="fot">
-                    <div class="contact">
-                        <h2>Contact us</h2>
-                        <p>call us :</p>
-                        <p class="phone"> 1800 99 69 99</p>
-                        <p>57 New Street , Brighton VIC , Australia</p>
-                        <p>contact@kemfruy.com</p>
-                            <div class="icons">
-                                <i class="fa-brands fa-facebook"></i>
-                                <i class="fa-brands fa-twitter"></i>
-                                <i class="fa-brands fa-instagram"></i>
-                                <i class="fa-brands fa-youtube"></i>
-                            </div>
-                    </div>
                     <div class="quick-links">
                         <h2>Quick links</h2>
                         <a href="#">Terms Of Use</a>
@@ -561,6 +568,9 @@
                 </div>
             </div>
         </div>
+    </div>
+    <div class="up-button">
+        <p>UP !</p>
     </div>
     <script src="/js/app.js"></script>
 </body>
