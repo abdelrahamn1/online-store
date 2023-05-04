@@ -25,5 +25,7 @@ Technologies:HTML , CSS , JavaScript
   
   . also "flex" is used in last both section to handel all attribute and links with attractve style using css.
   
+  .Full responsive
+  
   ##note :
   this website isn't complete , still working on it
