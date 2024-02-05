@@ -2,8 +2,6 @@
 Technologies:HTML , CSS , JavaScript
 
 
-  ### note :
-  this website isn't complete , still working on it
   
   
 ## Description: 
